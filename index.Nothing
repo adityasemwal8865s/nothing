@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>
+        html with the css styling.
+        </title>
+    </head>
+    <body>
+        <h1 id="headingONe">this is heading.
+
+        </h1>
+        <p>
+            this is a paragraph . </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Neque distinctio dolorem cumque enim doloremque in sunt,
+                 voluptates nisi, molestiae impedit quas dolor itaque cupiditate sint blanditiis aut ipsam vero laboriosam?</p>
+        <button onclick="alert('alert this is button')">useless</button>
+        <h2>
+            this is second heading.
+        </h2>
+        <h3 class="headingThird">
+            this is 3rd heading.
+        </h3>
+       
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Cumque commodi et, quisquam fuga voluptatum obcaecati officiis ullam velit nisi, necessitatibus doloremque ipsa. Aut in excepturi dolore id sequi. Similique, vero?</p>
+   <table>
+    <tr>
+        <th>hello</th>
+        <th>
+            hii
+        </th>
+        <th>what's </th>
+      
+    </tr>
+    <tr>
+    <td>67</td>
+    <td>67</td>
+    <td>58</td>
+    </tr>
+   </table>
+ 
+    <p class="adi">this is is is adiii</p>
+  <p id="adi">this is yellow coloor ===</p><br><hr>
+  <H1 style="font-size: 100px"; >form tag</H1>
+   <form><br>
+    <label for="name">name:</label><br><br>
+    <input type="text" id="name" placeholder="write down your name"><hr><hr><br><br>
+    <label for="username">username:</label><br><br>
+    <input type="username" id="username" placeholder="username"><hr> <br>
+    <label for="password">Password:</label><br><br>
+    <input type="password" id="password" placeholder="password"><hr><br>
+   </form>
+  
+    <button onclick="darkmode()">press button</button>
+    <script>
+        function darkmode() {
+            var element =document.body;
+            element.classList.toggle("dark-mode");
+        
+        }
+        
+        
+    </script>
+    <h1>this is the heading for check color ....</h1><!--this is caption okay-->
+    <p>this is the paragraph tag </p><
+     
+</body>
+</html>
